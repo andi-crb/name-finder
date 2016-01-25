@@ -9,10 +9,13 @@
 </head>
 <body>
   <h1>Name Generator for New Zealand born Characters</h1>
-    <select id="input">
-      <option>1954f</option>
-      <option>1955f</option>
-</select>
-    <button onclick=getName(input.value)>Get a name!</button>
+    <select id="year">
+      <option>1954</option>
+      <option>1955</option>
+    </select>
+    <select id="gender">
+      <option>f</option>
+      <option>m</option>
+    </select>
+    <button onclick="getName(year.value, gender.value)">Get a name!</button>
 </body>
-</html>
