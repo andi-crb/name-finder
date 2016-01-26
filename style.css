@@ -10,3 +10,10 @@ h1 {
 p {
   color: #251605;
 }
+
+#suggestion{
+  background-color: #251605;
+  color: #E9D985;
+  font-size: 150%;
+  text-align: center;  
+}
