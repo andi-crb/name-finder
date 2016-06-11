@@ -1,19 +1,49 @@
 body {
     background-color: #E9D985;
+    padding: 15px;
 }
 
 h1 {
   color: #251605;
   text-align: center;
+  font-variant: small-caps;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #251605;
+  margin-bottom: 1em;
 }
 
 p {
   color: #251605;
 }
 
+button {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  width: 8em;
+  margin: 1em auto;
+  display: block;
+  padding: 0.5em;
+}
+
 #suggestion{
   background-color: #251605;
   color: #E9D985;
   font-size: 150%;
-  text-align: center;  
+  text-align: center;
+  padding: 0.5em 2em;
+  margin: auto;
+  display: none;
+  border-radius: 2em;
+  min-width: 8em;
+}
+
+.suggestion{
+  text-align: center;
+  margin: 1em;
+}
+
+#disclaimer {
+  font-size: 80%;
+  margin-top: 2em;
 }
